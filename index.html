@@ -10,18 +10,100 @@
     <nav>
         <p id="nav_p">A look into top attractions in India</p>
     </nav>
-    <h2 id="head2">Image Gallery</h2>
+        <h2 id="head2">Image Gallery</h2>
     <div class="gallery" >
-        <img src="https://2.bp.blogspot.com/-zf9mmcX4m0Y/Wi6TJyQFhSI/AAAAAAAAAHU/FORHFs4wwJIEiy_mcNx9HhpYq1KYtriNQCLcBGAs/s1600/Gateway_of_india_at_night.jpg" alt="Gateway of India" class="gallery-pic" >
-        <img src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-train-rides.jpg" alt="Train rides near Shimla"  class="gallery-pic">
-        <img src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-golden-temple-amritsar.jpg" alt="Golden Temple Amritsar"  class="gallery-pic">
-        <img src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-amer-fort-jaipur.jpg" alt="Amer Fort, Jaipur"  class="gallery-pic">
-        <img src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-ellora-caves.jpg" alt="Ellora Caves, Aurangabad"  class="gallery-pic">
-        <img src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-bandra-worli-sea-link-mumbai.jpg" alt="Bandra-Worli Sea Link, Mumbai"  class="gallery-pic">
-        <img src="https://images.pexels.com/photos/11810034/pexels-photo-11810034.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Taj Mahal, Agra"  class="gallery-pic">
-        <img src="https://www.holidify.com/images/tooltipImages/SRINAGAR.jpg" alt="Dal Lake, Kashmir"  class="gallery-pic">
-        <img src="https://www.holidify.com/images/tooltipImages/JAISALMER.jpg" alt="Thar Desert, Jaisalmer"  class="gallery-pic">
-        <img src="https://www.holidify.com/images/bgImages/MANALI.jpg" alt="Manali"  class="gallery-pic">
+        <img 
+            src="https://www.tripdezire.com/wp-content/uploads/2018/03/Ganga-Aarti-at-Triveni-Ghat-in-Rishikesh.jpg" 
+            alt="Ganga Aarti, Rishikesh"  
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+
+        <img 
+            src="https://femina.wwmindia.com/content/2020/dec/smrannofkutch1607485031.jpg" 
+            alt="Rann of Kutch"  
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+
+        <img 
+            src="https://assets-news.housing.com/news/wp-content/uploads/2021/05/11104637/Adam%E2%80%99s-Bridge-Ram-Setu-Everything-you-need-to-know-FB-1200x700-compressed.jpg" 
+            alt="Ram setu, India-SriLanka" 
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+        
+        <img 
+            src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/01/13140345/Wagah-border-1.jpg" 
+            alt="Wagah Border, Amritsar" 
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+
+        <img 
+            src="https://static.toiimg.com/photo/msid-93927821,width-96,height-65.cms" 
+            alt="Ganesh Utsav, Mumbai"  
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+
+        <img 
+            src="https://www.planetware.com/wpimages/2019/11/india-best-places-to-visit-rajasthan.jpg" 
+            alt="Jaisalmer"  
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+        
+        <img 
+            src="https://blog.akbartravels.com/wp-content/uploads/2018/11/rsz_amitdavereuters.jpg" 
+            alt="Statue of Unity, Gujarat"  
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+
+        <img 
+            src="https://devilonwheels.com/wp-content/uploads/2016/07/11-2.jpg" 
+            alt="Leh Ladakh"  
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+
+        <img 
+            src="https://1.bp.blogspot.com/-RdB7DM3vGqk/XtoIBqXYjmI/AAAAAAAACPo/jMiJmvp0byoB35em1ZmMv5_fEo822e_UgCK4BGAsYHg/s876/5.jpg" 
+            alt="Reverse waterfall, Maharashtra"  
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+
+        <img 
+            src="https://www.planetware.com/wpimages/2020/01/india-in-pictures-beautiful-places-to-photograph-bandra-worli-sea-link-mumbai.jpg" 
+            alt="Bandra-Worli Sea Link, Mumbai"  
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+
+        <img 
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/7e/e7/e1/welcomheritage-gurkha.jpg?w=700&h=-1&s=1" 
+            alt="House Boat, Kashmir"  
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+
+        <img 
+            src="https://i.pinimg.com/originals/74/34/ac/7434ac7296b4efd147c6e434d4682400.jpg" 
+            alt="Kite Festival, Gujarat"  
+            class="gallery-pic" 
+            onclick="showImage(src)"
+        >
+
+        
     </div>
+
+
+    <div class="image-popup-container" id="imagePopup">
+        <span class="close-button" onclick="closeImage()">×</span>
+        <img src="" alt="Popup Image" id="popupImage">
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
